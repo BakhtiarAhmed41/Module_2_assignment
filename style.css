@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+}
+
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+p{
+    background-color: lightgrey;
+    padding: 2px;
+    text-align: center;
+}
+
+div{
+    border-color: black;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+body{
+    padding-left: 30px;
+}
+
+.menu{
+    border: 3px  solid black;
+    background-color: lightgray;
+    float: left;
+    padding: 4px;
+    margin: 10px;
+    height: 170px;
+    width: 31%;
+    border-radius: 3px;  
+}
+.heading{
+    text-align: center;
+    margin-left: 67%;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding-right: 56px;
+    margin-bottom: 20px;
+    margin-right: -5px;
+    margin-top: -5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+.one{
+    padding-left: 7px; 
+    background-color:bisque;
+    
+}
+
+.two{
+    background-color: red;
+    color: white;
+}
+
+.three{
+    background-color: yellow;
+    color: mediumblue;
+    
+}
+
+.first{
+
+}
+
+@media  (max-width: 991px) , (min-width: 768) {
+    
+    *{
+        background-color: brown;}
+
+        .first{
+            width: 47%;
+            margin: 10px;
+        }
+        .second{
+            width: 47%;
+            margin: 10px;
+            
+        }
+        .third{
+            width: 96.2%;
+            margin: 10px;
+        }
+    
+    .menu{
+        padding: 4px;
+        
+    }
+
+    body{
+        margin-right: 30px;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    *{
+        background-color: blueviolet;
+    }
+
+    .menu{
+        width: 90%;
+        height: 30%;
+    }
+
+    body{
+        padding-left: 90px;
+    }
+
+    h1{
+        margin: 0px;
+        padding: 20px
+        
+    }
+
+    p{
+        padding: 10px;
+    }
+    
+    
+}
+
+ @media (max-width: 452px){
+    .menu{
+    }
+
+     body{
+        margin: 0px;
+        padding-left: 20px;
+    }
+
+     p{
+         padding: 20px
+       
+     }
+ }
+    
+@media (max-width: 321px){
+
+    p{
+        padding: 0px;
+    }
+
+        .one{
+        font-size: 0.6em;
+        padding-left: 0;
+        font-weight: bolder;
+    }
+
+        .two{
+            font-size: 0.9em;
+        }
+} 
+    
